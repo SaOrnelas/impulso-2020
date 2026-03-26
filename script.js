@@ -17,7 +17,7 @@ function draw() {
   pg.translate(grSize/2, grSize/2);
   pg.textAlign(LEFT, CENTER);
   pg.textLeading(canvasSize/5.6-20);
-  pg.text("2020", -canvasSize/4.5, -canvasSize/5.35, 180);
+  pg.text("2020", -canvasSize/7.5, -canvasSize/5.35, 180);
   pg.pop();
 
   let tilesX = 150;
