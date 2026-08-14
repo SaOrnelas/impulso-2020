@@ -7,8 +7,8 @@ function setup() {
 }
 
 function draw() {
-  background(255);
-  //pg.clear();
+  //background(255);
+  clear();
   pg.fill(0);
   pg.clear();   // limpa o buffer pg para transparente [web:560]
   pg.textFont("Hind");
